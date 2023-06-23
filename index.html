@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Amazon</title>
+</head>
+<body>
+    <div id="nav">
+        <div id="navIcon"></div>
+        <div id="deliver" class="hoverAni">
+            <p class="fadeText" id="delTo">&nbsp;&nbsp;&nbsp;&nbsp;Deliver to</p>
+            <p class="highLightText" id="delToLoc"><i class="fa-solid fa-location-dot" ></i> India</p>
+        </div>
+        <div id="search">
+            <div id="catMenu">All&nbsp;&nbsp;<i class="fa-solid fa-caret-down"></i></div>
+            <div id="searchBarDiv"> <input type="text" placeholder="search Amazon" id="searchBar"></div>
+            <div id="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+        <div id="lang" class="hoverAni">
+            EN&nbsp;<i class="fa-solid fa-caret-down" id="langDrop"></i>
+        </div>
+        <div id="account" class="hoverAni">
+            <p class="fadeText">Hello, sign in</p>
+            <p class="highLightText">Accounts and Lists <i class="fa-solid fa-caret-down" id="Accdrop"></i></p>
+        </div>
+        <div id="returns" class="hoverAni">
+            <p class="fadeText">Returns</p>
+            <p class="highLightText">& Orders</p>
+        </div>
+        <div id="cart" class="hoverAni">
+            <i class="fa-solid fa-cart-shopping" id="cartIcon"></i><span id="cartCounter">0</span> Cart
+        </div>
+    </div>
+    <div id="navBottom">
+        <div id="nbOne">
+            <div id="all">
+                <i class="fa-solid fa-bars"></i> All
+            </div>
+            <p class="hoverAni">Today's Deals</p>
+            <p class="hoverAni">Customer Service</p>
+            <p class="hoverAni">Registry</p>
+            <p class="hoverAni">Gift Cards</p>
+            <p class="hoverAni">Sell</p>
+        </div>
+        <div id="nbTwo">
+            Shop great deals now
+        </div>
+    </div>
+    <div id="hero"></div>
+    <div id="locWarn">
+        You are on Amazon.com. You can also shop on Amazon India for millions of local products with fast delivery.
+    </div>
+    <div id="itemsContainer">
+        <div id="itemsRowOne" class="itemRow">
+            <div class="itemBox" >
+                <p class="boxHead">New Arrival in Toys</p>
+                <div class="itemDisplay" id="box1"></div>
+                <p class="shopLink"><a href="#">Shop now</a></p>
+            </div>
+            <div class="itemBox" >
+                <p class="boxHead">Discover Fashion Trends</p>
+                <div class="itemDisplay" id="box2"></div>
+                <p class="shopLink"><a href="#">Shop now</a></p>
+            </div>
+            <div class="itemBox" >
+                <p class="boxHead">Explore latest Tech</p>
+                <div class="itemDisplay" id="box3"></div>
+                <p class="shopLink"><a href="#">Shop now</a></p>
+            </div>
+            <div class="itemBox" id="advertBlock">
+                <div id="signInBlock">
+                    <p>Sign in for the best experience</p>
+                    <button>Sign in securely</button>
+                </div>
+                <div id="advert"></div>
+            </div>
+            
+        </div>
+        <div id="itemsRowTwo" class="itemRow">
+            <div class="itemBox" >
+                <p class="boxHead">Discover Beauty Range</p>
+                <div class="itemDisplay" id="box5"></div>
+                <p class="shopLink"><a href="#">Shop now</a></p>
+            </div>
+            <div class="itemBox" >
+                <p class="boxHead">For Your Fitness Needs.</p>
+                <div class="itemDisplay" id="box4"></div>
+                <p class="shopLink"><a href="#">Shop now</a></p>
+            </div>
+            <div class="itemBox" >
+                <p class="boxHead">Daily Necessities</p>
+                <div class="itemDisplay" id="box7"></div>
+                <p class="shopLink"><a href="#">Shop now</a></p>
+            </div>
+            <div class="itemBox" >
+                <p class="boxHead">Pet Supplies</p>
+                <div class="itemDisplay" id="box8"></div>
+                <p class="shopLink"><a href="#">Shop now</a></p>
+            </div>
+        </div>
+        <div id="itemsRowThree">
+            <p>Popular Items This Season</p>
+            <div id="popularCarousel">
+                <div class="popItem" id="pop1"></div>
+                <div class="popItem" id="pop2"></div>
+                <div class="popItem" id="pop3"></div>
+                <div class="popItem" id="pop4"></div>
+                <div class="popItem" id="pop5"></div>
+                <div class="popItem" id="pop6"></div>
+                <div class="popItem" id="pop7"></div>
+            </div>
+        </div>
+    </div>
+    <div id="signInFooter">
+        <hr style="margin-bottom: 20px;">
+        <p>See Personalized recommendations</p>
+        <button>Sign In</button>
+        <p>New customer? <a href="#">Start Here</a>.</p>
+        <hr style="margin-top: 20px;">
+    </div>
+    <div id="BTT">Back to Top</div>
+    <div id="footerMid">
+        <div id="footerLinksContainer">
+            <div class="footerLinksCol">
+                <p>Get To Know Us</p>
+                <ul>
+                    <li>Career</li>
+                    <li>Blog</li>
+                    <li>About Amazon</li>
+                    <li>Investor Relations</li>
+                    <li>Amazon Devices</li>
+                    <li>Amazon Science</li>
+                </ul>
+            </div>
+            <div class="footerLinksCol">
+                <p>Make Money With Us</p>
+                <ul>
+                    <li>Sell products on Amazon</li>
+                    <li>Sell on Amazon Business</li>
+                    <li>Sell apps on Amazon</li>
+                    <li>Become an Affiliate</li>
+                    <li>Advertise Your Products</li>
+                    <li>Self-Publish with Us</li>
+                    <li>Host an Amazon Hub</li>
+                </ul>
+            </div>
+            <div class="footerLinksCol">
+                <p>Amazon Payment Products</p>
+                <ul>
+                    <li>Amazon Business Card</li>
+                    <li>Shop with Points</li>
+                    <li>Reload Your Balance</li>
+                    <li>Amazon Currency Converter</li>
+                </ul>
+            </div>
+            <div class="footerLinksCol">
+                <p>Let Us Help You</p>
+                <ul> 
+                    <li>Amazon and COVID-19</li>
+                    <li>Your Account</li>
+                    <li>Your Orders</li>
+                    <li>Shipping Rates & Policies</li>
+                    <li>Returns & Replacements</li>
+                    <li>Manage Your Content and Devices</li>
+                    <li>Amazon Assistant</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div id="midFooterEnd">
+            <div id="midFooterLogo"><img src="../Amazon clone/assets/images/amazon_logo.png" alt=""></div>
+            <div id="midFooterOptions">
+                <div id="FootLang"><i class="fa-solid fa-globe"></i> English</div>
+                <div id="FootCurrency"><i class="fa-solid fa-dollar-sign"></i> USD- US Dollar</div>
+                <div id="FootLocation"> <i class="fa-solid fa-location-dot"></i> India</div>
+            </div>
+        </div>
+    </div>
+    <div id="footerEnd">
+        <div id="footEndLinksContainer">
+            <div class="footEndLinksRow">
+                <div class="footEndLink">
+                    <p>Amazon Music</p>
+                    Stream millions of songs
+                </div>
+                <div class="footEndLink">
+                    <p> Amazon Advertising</p>
+                    Find, attract, and engage customers
+                </div>
+                <div class="footEndLink">
+                    <p>6pm</p>
+                    Score deals on fashion brands
+                </div>
+                <div class="footEndLink">
+                    <p>AbeBooks</p>
+                    Books, art & collectibles
+                </div>
+                <div class="footEndLink">
+                    <p>ACX</p>
+                    Audiobook Publishing Made Easy
+                </div>
+                <div class="footEndLink">
+                    <p>Sell on Amazon</p>
+                    Start a Selling Account
+                </div>
+                <div class="footEndLink">
+                    <p>Amazon Business</p>
+                    Everything For Your Business
+                </div>
+
+            </div>
+            <div class="footEndLinksRow">
+                <div class="footEndLink">
+                    <p>AmazonGlobal</p>
+                    Ship Orders Internationally
+                </div>
+                <div class="footEndLink">
+                    <p> Home Services</p>
+                    Experienced Pros Happiness Guarantee
+                </div>
+                <div class="footEndLink">
+                    <p>Amazon Ignite</p>
+                    Sell your original Digital Educational Resources
+                </div>
+                <div class="footEndLink">
+                    <p>Amazon Web Services</p>
+                    Scalable Cloud Computing Services
+                </div>
+                <div class="footEndLink">
+                    <p>Audible</p>
+                    Listen to Books & Original Audio Performances
+                </div>
+                <div class="footEndLink">
+                    <p>Book Depository
+                        </p>Books With Free
+                        Delivery Worldwide
+                </div>
+                <div class="footEndLink">
+                    <p>Box Office Mojo
+                        </p>
+                        Find Movie
+                        Box Office Data
+                </div>
+
+            </div>
+            <div class="footEndLinksRow">
+                <div class="footEndLink">
+                    <p>ComiXology
+                        	</p>
+                            Thousands of
+                            Digital Comics
+                </div>
+                <div class="footEndLink">
+                    <p> DPReview
+                        </p>
+                        Digital
+                        Photography
+                </div>
+                <div class="footEndLink">
+                    <p> 	Fabric
+                        	</p>
+                            Sewing, Quilting
+                            & Knitting
+                </div>
+                <div class="footEndLink">
+                    <p>Goodreads
+                        </p>
+                        Book reviews
+                        & recommendations
+                </div>
+                <div class="footEndLink">
+                    <p> 	IMDb
+                        Movies, TV
+                        & Celebrities</p>
+                    Audiobook Publishing Made Easy
+                </div>
+                <div class="footEndLink">
+                    <p> 	IMDbPro
+                        </p>
+                        Get Info Entertainment
+                        Professionals Need
+                </div>
+                <div class="footEndLink">
+                    <p>Kindle Direct Publishing
+                         </p>
+                         Indie Digital & Print Publishing
+                         Made Easy
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+    <p id="copyRight">© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+</body>
+</html>
